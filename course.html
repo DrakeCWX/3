@@ -23,9 +23,47 @@
   </ul>
 </nav>
 
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="13.png" style="width:100%">
+  <img class="mySlides" src="14.png" style="width:100%">
+  <img class="mySlides" src="15.png" style="width:100%">
+  
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
 <h1>Be Better Education</h1>
 <h2>Organization dedicated to information technology teaching</h2>
 
+
+    <p>Enter the information you want to query</p>
+    <input id="text1" type="text" value="">
+
+    <button onclick="()">click it</button>
+
+ <img src=16.png width="" height="">
+    
 <table>
         <caption>Courses</caption>
         <thead>
@@ -50,6 +88,21 @@
             <td>07/2023</td>
           </tr>
           <tr>
+            <th>Computer system structure course
+</th>
+            <td>Computer system structure is the external characteristic seen by the machine language programmer or compiler of the computer. The so-called external characteristics are the conceptual structure and functional characteristics of the computer. It mainly studies the basic working principle of the computer system and the trade-off strategy in the division of hardware and software interface, and establishes a complete and systematic overall concept of computer software and hardware.
+
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
+            <th>Internet of things technology course
+</th>
+            <td>We will learn how to connect any object to the network through information sensor devices, as agreed upon, and to exchange and communicate information through information dissemination media for intelligent identification, positioning, tracking, monitoring and other functions.
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
             <th>Web page creation course</th>
             <td>Learn HTML language, server setup, CSS language, div + CSS layout
 </td>
@@ -63,17 +116,34 @@
           </tbody>
           </table>
 
-    <img src=6.webp width="500" height="200">
-    <p>Enter the information you want to query</p>
-    <input id="text1" type="text" value="">
-
-    <button onclick="()">click it</button>
+<img src=17.png width="" height="">
+    
 <body background="7.webp" width="500" height="200">
  
-    
+ <h3>If you want to join us, please enter your information</h3>
+ 
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="fname">Address:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="fname">Age:</label><br>
+  <input type="number" id="fname" name="fname" value=""><br>
+  <label for="lname">Telephone number:</label><br>
+  <input type="number" id="lname" name="lname" value="">
+</form>
+
+<button onclick="()">click it</button>   
     
 <style>
 
+img {
+  float: right;
+}
+
+.mySlides {display:none;}
   
 .footer {
    position: fixed;
