@@ -81,3 +81,21 @@ th, td {
     font-weight: bold;
   }
 body{text-align：center;}
+
+
+
+img {
+  float: right;
+}
+
+.mySlides {display:none;}
+  
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightblue;
+   color: white;
+   text-align: center;
+}
