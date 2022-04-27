@@ -15,6 +15,7 @@
   </head>
   
   <body>
+    <script src="course.js"></script>
     <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -120,20 +121,24 @@ function showDivs(n) {
     
 <body background="7.webp" width="500" height="200">
  
- <h3>If you want to join us, please enter your information</h3>
+<div> 
+<h3>If you want to join us, please enter your information</h3>
  
-<form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br>
-  <label for="fname">Address:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="fname">Age:</label><br>
-  <input type="number" id="fname" name="fname" value=""><br>
-  <label for="lname">Telephone number:</label><br>
-  <input type="number" id="lname" name="lname" value="">
-</form>
+<form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+First name: <br>
+<input type="text" name="firstname"><br/>
+Last name: <br>
+<input type="text" name="lastname"><br/>
+Address: <br>
+<input type="text" name="address"><br/>    
+Age: <br>
+<input type="text" name="age"><span id="numloc1"></span><br/> 
+Telephone number:<br>
+<input type="text" name="telephonenumber"><span id="numloc2"></span><br/> 
+<br>
+<input type="submit" value="register">  
+</form> 
+</div>
 
 <button onclick="()">click it</button>   
     
