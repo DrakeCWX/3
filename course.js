@@ -1,4 +1,7 @@
-//Drake/Wenxing Chen. This script is to verify whether the information entered by the customer meets our requirements (the name and address cannot be blank, and the age and telephone number must be numbers), and the customer must enter the information step by step from firstname.
+/*Drake/Wenxing Chen. 
+This script is to verify whether the information entered by the customer meets our requirements
+(the name and address cannot be blank, and the age and telephone number must be numbers), 
+and the customer must enter the information step by step from firstname.*/
 function validateform(){  
     var firstname=document.myform.firstname.value;  
     var lastname=document.myform.lastname.value;
