@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by cwx</title>
+  <link rel="stylesheet" href="./style-course.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  
+  <head>
+    <title>course</title>
+  </head>
+  
+  <body>
+<script src="course.js"></script>
+    <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="course.html">Course</a></li>
+    <li><a href="aboutus.html">About us</a></li>
+  </ul>
+</nav>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="13.png" style="width:100%">
+  <img class="mySlides" src="14.png" style="width:100%">
+  <img class="mySlides" src="15.png" style="width:100%">
+  
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<h1>Be Better Education</h1>
+<h2>Organization dedicated to information technology teaching</h2>
+
+
+
+
+
+
+<center><table>
+        <caption>Courses</caption>
+        <thead>
+          <tr>
+            <th class="cell-highlight">Courses</th>
+            <td class="student">Learning content
+</td>
+            <td>Course duration
+</td>
+          <tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Microsoft office software course</th>
+            <td>Learn to use word, Excel, PowerPoint and other office software</td>
+            <td>Two years from purchase</td>   
+          </tr>
+          <tr>
+            <th>Computer system structure course
+</th>
+            <td>Computer system structure is the external characteristic seen by the machine language programmer or compiler of the computer. The so-called external characteristics are the conceptual structure and functional characteristics of the computer. It mainly studies the basic working principle of the computer system and the trade-off strategy in the division of hardware and software interface, and establishes a complete and systematic overall concept of computer software and hardware.
+
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
+            <th>Internet of things technology course
+</th>
+            <td>We will learn how to connect any object to the network through information sensor devices, as agreed upon, and to exchange and communicate information through information dissemination media for intelligent identification, positioning, tracking, monitoring and other functions.
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
+            <th>Web page creation course</th>
+            <td>Learn HTML language, server setup, CSS language, div + CSS layout
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
+            <th>Database construction course</th>
+            <td>Learning database software Access
+</td>
+            <td>Two years from purchase</td>
+          </tr>
+          <tr>
+            <th>Basic markup language course</th>
+            <td>Learn HTML language，XML language</td>
+            <td>Two years from purchase</td>
+          </tr>
+          </tbody>
+          </table></center>
+
+<center><h4></h4><center>
+<div class="slogan"><img src=slogan.png width="" height=""></div>
+
+<table>
+<caption>Course lesson plan(1month)</caption>
+<thead>
+<tr>
+<th>Microsoft office software course</th>
+<th >Computer system structure course	</th>
+<th >Internet of things technology course</th>
+
+<tr>
+</thead>
+<tbody>
+<tr>
+<th class="a">Learn word(Day 1 to day 10):Learn to create, edit and save documents (overall page layout and general operations)
+</th>
+<td class="b">Learn computer hardware knowledge(Day 1 to day 10):Learn the knowledge of memory, memory, hard disk, etc
+</td>
+<td class="c">Learn information and Communication Engineering(Day 1 to day 10):It involves wireless communication, multimedia and image processing, electromagnetic field and microwave, medical X-ray digital imaging, etc
+</td>
+
+</tr>
+<tr>
+<th class="a">Learn excel(Day 11 to day 20):Learn the usage of general basic operations, general functions and pivot tables
+</th>
+<td class="b">Learning information transmission mode(Day 11 to day 20):Learn the input and output structure, including the connection mode and data transmission mode between processor, memory and input and output equipment
+</td>
+<td class="c">Learn management(Day 11 to day 20):Manage the use of the Internet of things
+</td>
+
+</tr>
+<tr>
+<th class="a">Learn power point(Day 21 to day 30):Learn how to edit and decorate presentations, slide show and add hyperlinks
+</th>
+<td class="b">Learn computer software(Day 21 to day 30):Operating system, program language processing system
+</td>
+<td class="c">Learn Internet of things security technology(Day 21 to day 30):Learn sensor network security, mobile communication access security, wireless access security, etc
+</td>
+
+<tr>
+<th class="d">Web page creation course</th>
+<th class="d">Database construction course</th>
+<th class="d">Basic markup language course</th>
+
+<tr>
+</thead>
+<tbody>
+<tr>
+<th class="a">Learn HTML language(Day 1 to day 10):Learning HTML language
+
+</th>
+<td class="b">Basic usage of access(Day 1 to day 10):How to use
+
+</td>
+<td class="c">Learn XML language(Day 1 to day 10):Through this mark, computers can process articles containing all kinds of information
+</td>
+
+</tr>
+<tr>
+<th class="a">Learn server setup(Day 11 to day 20):Domain Name Server
+</th>
+<td class="b">Learn data analysis(Day 11 to day 20):Access has powerful data processing and statistical analysis capabilities. By using the query function of access, it is convenient to carry out various summary, average and other statistics
+</td>
+<td class="c">Learn HTML language(Day 11 to day 20):A markup language designed for web page creation and other information that can be seen in web browsers
+</td>
+
+</tr>
+<tr>
+<th class="a">Learn the language to decorate the website(Day 21 to day 30):css,javascript
+</th>
+<td class="b">Learn and developing software(Day 21 to day 30):Access is used to develop software, such as production management, sales management, inventory management and other enterprise management software
+
+</td>
+<td class="c">Learn XHTML language(Day 21 to day 30):Hypertext markup language is similar, but more syntactically rigorous
+
+</td>
+
+</tr>
+
+<tr>
+
+</tbody>
+</table>
+
+<div class="link">
+<p>Resources</p>
+<p><a href="https://www.w3schools.com/">Web page creation course/Basic markup language course
+</a></p>
+<p><a href="https://www.klientsolutech.com/top-10-basic-and-advanced-microsoft-word-skills/">Microsoft office software course	</a></p>
+<p><a href="https://quicklearncomputer.com/structure-of-computer/">Computer system structure course	</a></p>
+<p><a href="https://tech4fresher.com/what-is-domain-name-server-and-how-it-works/">Web page creation course</a></p>
+<p><a href="https://www.wikihow.com/Use-Microsoft-Access">Database construction course</a></p>
+
+</div>
+
+<body background="7.webp" width="500" height="200">
+
+<div class="e"><img src=16.png width="" height=""></div>
+
+<div class="g"><img src=17.png width="" height=""></div>
+
+<div> 
+ <h3>If you want to join us, please enter your information</h3>
+<form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+First name: <br>
+<input type="text" name="firstname"><br/>
+Last name: <br>
+<input type="text" name="lastname"><br/>
+Address: <br>
+<input type="text" name="address"><br/>    
+Age: <br>
+<input type="text" name="age"><span id="numloc1"></span><br/> 
+Telephone number:<br>
+<input type="text" name="telephonenumber"><span id="numloc2"></span><br/> 
+<br>
+<input type="submit" value="register">  
+</form> 
+</div>
+
+
+<div class="footer">
+  <p>Drake/Wenxing Chen</p>
+</div>
+
+  </body>
+  
+</html>
+<!-- partial -->
+  
+</body>
+</html>
